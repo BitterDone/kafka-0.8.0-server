@@ -1,5 +1,5 @@
-D:
-cd D:\Downloads\Installs\kafka\kafka_2.12-2.3.0
+rem D:
+rem cd D:\Downloads\Installs\kafka\kafka_2.12-2.3.0
 start cmd /k bin\windows\zookeeper-server-start.bat config/zookeeper.properties
 start cmd /k bin\windows\kafka-server-start.bat config/server.properties
 timeout /t 15 /nobreak > NUL
